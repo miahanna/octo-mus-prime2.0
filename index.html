@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MHK</title>
+    
+    <!-- W3.CSS and Fonts -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        /* General Styles */
+        body, h1, h2, h3, h4, h5, h6 {
+            font-family: "Lato", sans-serif;
+        }
+        body, html {
+            height: 100%;
+            color: #777;
+            line-height: 1.8;
+        }
+
+        .w3-wide { letter-spacing: 10px; }
+        .w3-hover-opacity { cursor: pointer; }
+
+        /* Parallax Backgrounds */
+        .bgimg-1, .bgimg-2, .bgimg-3 {
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+  /* First image (Logo. Full height) */ 
+  .bgimg-1 {
+      background-image: url('Images/logo.jpg'); min-height: 100%;
+  } 
+  
+  /* Second image (Portfolio) */ 
+  .bgimg-2 {
+      background-image: url("Images/logo.jpg"); min-height: 500px; 
+  }
+  
+  /* Third image (Contact) */ 
+  .bgimg-3 {
+      background-image: url("Images/logo.jpg"); min-height: 500px;
+  }
+
+        /* Responsive Parallax */
+        @media only screen and (max-device-width: 1600px) {
+            .bgimg-1, .bgimg-2, .bgimg-3 {
+                background-attachment: scroll;
+                min-height: 400px;
+            }
+        }
+
+        /* Menu Tabs */
+        .tablink { cursor: pointer; }
+
+        /* Portfolio Grid */
+.portfolio-item {
+    width: 20%;
+    float: left;
+    padding: 12px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.portfolio-item img, 
+.portfolio-item video, 
+.portfolio-item model-viewer {
+    width: 100%;
+    display: block;
+}
+
+.portfolio-item p {
+    margin-top: 8px;
+}
+    </style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+    <div class="w3-bar" id="myNavbar">
+        <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right"
+           href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+            <i class="fa fa-bars"></i>
+        </a>
+        <a href="#home" class="w3-bar-item w3-button">SĀKUMS</a>
+        <a href="#saturs" class="w3-bar-item w3-button w3-hide-small">SATURS</a>
+        <a href="#vertejumi" class="w3-bar-item w3-button w3-hide-small">VĒRTĒJUMI</a>
+        <a href="#darbi" class="w3-bar-item w3-button w3-hide-small">DARBI</a>
+        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+            <i class="fa fa-search"></i>
+        </a>
+    </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+        <a href="#saturs" class="w3-bar-item w3-button" onclick="toggleFunction()">SATURS</a>
+        <a href="#vertejumi" class="w3-bar-item w3-button" onclick="toggleFunction()">VĒRTĒJUMI</a>
+        <a href="#darbi" class="w3-bar-item w3-button" onclick="toggleFunction()">DARBI</a>
+        <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+    </div>
+</div>
+
+<!-- First Parallax Image -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+    <div class="w3-display-middle" style="white-space:nowrap;">
+        <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">
+            <span class="w3-hide-small">Viss, ko es iemācījos pa 10. klasi datorikā</span>
+        </span>
+    </div>
+</div>
+
+<!-- About Section -->
+<div class="w3-content w3-container w3-padding-64" id="saturs">
+    <h3 class="w3-center">MIA HANNA KOVĀČA</h3>
+    <p class="w3-center"><em>2025./2026. m.g.</em></p>
+</div>
+
+<!-- Menu / Content Tabs -->
+<div class="w3-container">
+    <div class="w3-content" style="max-width:700px">
+
+        <h5 class="w3-center w3-padding-48">
+            <span class="w3-tag w3-wide">SATURS</span>
+        </h5>
+
+        <div class="w3-row w3-center w3-card w3-padding">
+            <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+                <div class="w3-col s6 tablink">1. semestris</div>
+            </a>
+            <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+                <div class="w3-col s6 tablink">2. semestris</div>
+            </a>
+        </div>
+
+        <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
+            <h5>Attēlu apstrāde</h5>
+            <p class="w3-text-grey">GIMP, Inkscape, Tinkercad</p><br>
+            <h5>Tekstapstrāde</h5>
+            <p class="w3-text-grey">Microsoft Word</p>
+        </div>
+
+        <div id="Drinks" class="w3-container menu w3-padding-48 w3-card" style="display:none">
+            <h5>Izklājlapas</h5>
+            <p class="w3-text-grey">Microsoft Excel</p><br>
+            <h5>Tīmekļa lapas</h5>
+            <p class="w3-text-grey">HTML, CSS, JavaScript</p>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<!-- Second Parallax Image -->
+<div class="bgimg-2 w3-display-container w3-opacity-min"></div>
+
+<!-- Portfolio / Ratings -->
+<div class="w3-content w3-container w3-padding-64" id="vertejumi">
+    <h5 class="w3-center w3-padding-48">
+        <span class="w3-tag w3-wide">MANI VĒRTĒJUMI</span>
+    </h5>
+
+    <p class="w3-wide">GIMP</p>
+    <div class="w3-light-grey"><div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:83%">83%</div></div>
+    <p class="w3-wide">Video apstrāde</p>
+    <div class="w3-light-grey"><div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div></div>
+    <p class="w3-wide">Ms Word</p>
+    <div class="w3-light-grey"><div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div></div>
+    <p class="w3-wide">3D attēlu apstrāde un printēšana</p>
+    <div class="w3-light-grey"><div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:100%">100%</div></div>
+    <p class="w3-wide">Ms Excel</p>
+    <div class="w3-light-grey"><div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:83%">83%</div></div>
+    <br>
+    </div>
+    <div class="w3-row w3-center w3-dark-grey w3-padding-16" style="width:100%; margin:0;">
+        <div class="w3-third w3-section"><span class="w3-xlarge">8,5</span><br>I Semestris</div>
+        <div class="w3-third w3-section"><span class="w3-xlarge">9</span><br>II Semestris</div>
+        <div class="w3-third w3-section"><span class="w3-xlarge">8,4</span><br>Mācību gads</div>
+    </div>
+
+
+<!-- Second Parallax Image -->
+<div class="bgimg-2 w3-display-container w3-opacity-min"></div>
+
+<!-- Projects Section -->
+<div class="w3-content w3-container w3-padding-64" id="darbi">
+    <h5 class="w3-center w3-padding-48">
+        <span class="w3-tag w3-wide">MANI DARBI</span>
+    </h5>
+    <p class="w3-center"><em>Mani izstrādātie projekti<br>Uzklikšķiniet uz bildēm, lai redzētu lielākus</em></p>
+    <br>
+
+    <div class="w3-row-padding w3-center">
+
+        <div class="portfolio-item">
+            <img src="Images/Gimp.gif" alt="GIMP animācija" onclick="onClick(this)">
+            <p>GIMP animācija</p>
+        </div>
+
+        <div class="portfolio-item">
+            <a href="Images/Plakats_Mia.svg" target="_blank">
+                <img src="Images/Plakats_Mia.svg" alt="Inkscape plakāts">
+            </a>
+            <p>Inkscape plakāts</p>
+        </div>
+
+        <div class="portfolio-item">
+            <a href="Images/Degreez.svg" target="_blank">
+                <img src="Images/Degreez.svg" alt="Inkscape Biznesa logo">
+            </a>
+            <p>Inkscape Biznesa logo</p>
+        </div>
+
+        <div class="portfolio-item">
+            <a href="Images/Terrific Migelo.stl" download>
+                <img src="Images/Image4 3dmod.png" alt="3D model preview">
+            </a>
+            <p>3D kuba maliņa</p>
+        </div>
+
+        <div class="portfolio-item">
+            <video autoplay muted loop controls>
+                <source src="Images/3D kuba video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>3D kuba montāža</p>
+        </div>
+
+    </div>
+</div>
+
+<!-- Modal Image Gallery -->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+    <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal">
+        <i class="fa fa-remove"></i>
+    </span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+        <img id="img01" class="w3-image">
+        <p id="caption" class="w3-opacity w3-large"></p>
+    </div>
+</div>
+
+<!-- Second Parallax Image -->
+<div class="bgimg-2 w3-display-container w3-opacity-min"></div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+    <h4>PALDIES PAR UZMANĪBU!</h4>
+</footer>
+
+<script>
+    // Tabs
+    function openMenu(evt, menuName) {
+        const menus = document.getElementsByClassName("menu");
+        for (let menu of menus) menu.style.display = "none";
+
+        const tablinks = document.getElementsByClassName("tablink");
+        for (let link of tablinks) link.className = link.className.replace(" w3-dark-grey", "");
+
+        document.getElementById(menuName).style.display = "block";
+        evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+    }
+    document.getElementById("myLink").click();
+
+    // Modal Images
+    function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+        document.getElementById("caption").innerHTML = element.alt;
+    }
+
+    // Navbar on scroll
+    window.onscroll = function() {
+        const navbar = document.getElementById("myNavbar");
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            navbar.className = "w3-bar w3-card w3-animate-top w3-white";
+        } else {
+            navbar.className = "w3-bar";
+        }
+    };
+
+    // Toggle mobile menu
+    function toggleFunction() {
+        const x = document.getElementById("navDemo");
+        if (!x.className.includes("w3-show")) x.className += " w3-show";
+        else x.className = x.className.replace(" w3-show", "");
+    }
+</script>
+
+</body>
+</html>

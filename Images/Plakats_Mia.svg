@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="Plakats_Mia.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.0267829"
+     inkscape:cx="465.5317"
+     inkscape:cy="368.62709"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient7"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#65e4e4;stop-opacity:0.46031698;"
+         offset="0"
+         id="stop7" />
+      <stop
+         style="stop-color:#65e4e4;stop-opacity:0;"
+         offset="0.79257643"
+         id="stop8" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#65e4e4;stop-opacity:0.46031698;"
+         offset="0.49730617"
+         id="stop1" />
+      <stop
+         style="stop-color:#65e4e4;stop-opacity:0;"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1"
+       id="radialGradient2"
+       cx="58.306755"
+       cy="63.531956"
+       fx="58.306755"
+       fy="63.531956"
+       r="54.855988"
+       gradientTransform="matrix(1,0,0,1.0145894,0,-0.68584485)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1"
+       id="radialGradient2-4"
+       cx="164.71657"
+       cy="206.12523"
+       fx="164.71657"
+       fy="206.12523"
+       r="54.855988"
+       gradientTransform="matrix(1,0,0,1.0145894,0,-0.68584485)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1"
+       id="radialGradient2-7"
+       cx="68.510429"
+       cy="119.20438"
+       fx="68.510429"
+       fy="119.20438"
+       r="54.855988"
+       gradientTransform="matrix(1,0,0,1.0145894,0,-0.68584485)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7"
+       id="radialGradient8"
+       cx="98.939262"
+       cy="156.88159"
+       fx="98.939262"
+       fy="156.88159"
+       r="117.16012"
+       gradientTransform="matrix(1,0,0,1.311042,0,-48.796766)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Slānis 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <ellipse
+       style="fill:url(#radialGradient8);stroke:none;stroke-width:2.358;stroke-dasharray:none;stroke-opacity:0.572549;fill-opacity:0.46031699"
+       id="path6"
+       cx="98.939262"
+       cy="156.88159"
+       rx="117.16012"
+       ry="153.60184" />
+    <rect
+       style="fill:none;fill-opacity:0.460317;stroke:#029d9d;stroke-width:4.35799975;stroke-dasharray:none;stroke-opacity:0.89312977"
+       id="rect5"
+       width="209.53987"
+       height="295.54233"
+       x="0"
+       y="0.72883439" />
+    <rect
+       style="fill:#b5f6f6;fill-opacity:0.46031699;stroke:none;stroke-width:0.684001;stroke-opacity:0.761905"
+       id="rect1"
+       width="205.16687"
+       height="292.26257"
+       x="2.9153376"
+       y="2.1865029" />
+    <path
+       sodipodi:type="star"
+       style="fill:url(#radialGradient2);fill-opacity:0.460317;stroke:none;stroke-width:0.684001;stroke-opacity:0.761905"
+       id="path1"
+       inkscape:flatsided="false"
+       sodipodi:sides="6"
+       sodipodi:cx="57.942332"
+       sodipodi:cy="63.044172"
+       sodipodi:r1="57.226261"
+       sodipodi:r2="17.989618"
+       sodipodi:arg1="0.75837771"
+       sodipodi:arg2="1.3592897"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 99.485891,102.40123 61.718951,80.632903 44.629903,118.70047 44.598353,75.109184 3.0863451,79.34342 40.821735,57.520451 16.398775,23.687116 54.165715,45.455438 71.254763,7.3878664 71.286314,50.979157 112.79832,46.744921 75.062932,68.56789 Z" />
+    <path
+       sodipodi:type="star"
+       style="fill:url(#radialGradient2-4);fill-opacity:0.460317;stroke:none;stroke-width:0.684001;stroke-opacity:0.761905"
+       id="path1-5"
+       inkscape:flatsided="false"
+       sodipodi:sides="6"
+       sodipodi:cx="165.4454"
+       sodipodi:cy="209.53989"
+       sodipodi:r1="55.697443"
+       sodipodi:r2="17.989618"
+       sodipodi:arg1="0.10487693"
+       sodipodi:arg2="0.70578892"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 220.83681,215.37056 -41.69951,5.83801 8.9543,39.21702 -25.90563,-33.19383 -29.48578,27.36316 15.79389,-39.03184 -38.44008,-11.85387 41.6995,-5.83801 -8.95429,-39.21702 25.90562,33.19383 29.48579,-27.36315 -15.79389,39.03184 z"
+       transform="translate(-7.3196783,14.837133)" />
+    <path
+       sodipodi:type="star"
+       style="fill:url(#radialGradient2-7);fill-opacity:0.460317;stroke:none;stroke-width:0.684001;stroke-opacity:0.761905"
+       id="path1-7"
+       inkscape:flatsided="false"
+       sodipodi:sides="6"
+       sodipodi:cx="67.781601"
+       sodipodi:cy="120.62208"
+       sodipodi:r1="32.076991"
+       sodipodi:r2="9.7902565"
+       sodipodi:arg1="0.37206774"
+       sodipodi:arg2="0.78293955"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 97.663809,132.28343 -22.942452,-4.75564 -2.097676,24.80371 -7.352727,-22.24656 -22.529481,10.58521 15.589725,-17.49092 -20.431805,-14.2185 22.942452,4.75563 2.097676,-24.803708 7.352727,22.246568 22.529481,-10.58522 -15.589725,17.49093 z"
+       transform="translate(-28.750928,-31.994116)" />
+    <text
+       xml:space="preserve"
+       style="font-size:11.7698px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;fill-opacity:0.460317;stroke:#000000;stroke-width:0.597654;stroke-dasharray:none;stroke-opacity:0.761905"
+       id="text2"
+       y="20.726391"
+       x="2.6970737"
+       transform="scale(0.8314011,1.2027889)"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="fill:none;stroke:#000000;stroke-width:0.597654;stroke-dasharray:none;stroke-opacity:0.761905"
+         x="2.6970737"
+         y="20.726391">Informācijas avotu uzticamības pārbaude</tspan></text>
+    <rect
+       style="fill:#65e4e4;fill-opacity:0.460317;stroke:#17a2a2;stroke-width:2.358;stroke-dasharray:none;stroke-opacity:0.572549"
+       id="rect6"
+       width="90.375458"
+       height="61.950924"
+       x="9.1104412"
+       y="68.87484"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:49.4554px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#80eaea;fill-opacity:0.900763;stroke:#3dbdbd;stroke-width:1.61241;stroke-dasharray:none;stroke-opacity:1"
+       x="14.598991"
+       y="84.599854"
+       id="text9"
+       transform="scale(0.66611034,1.5012528)"><tspan
+         sodipodi:role="line"
+         id="tspan9"
+         style="fill:#80eaea;fill-opacity:0.900763;stroke:#3dbdbd;stroke-width:1.61241;stroke-dasharray:none;stroke-opacity:1"
+         x="14.598991"
+         y="84.599854">STOP</tspan></text>
+    <rect
+       style="fill:#65e4e4;fill-opacity:0.460317;stroke:#17a2a2;stroke-width:2.358;stroke-dasharray:none;stroke-opacity:0.572549"
+       id="rect6-3"
+       width="90.375458"
+       height="61.950924"
+       x="107.75053"
+       y="115.04475"
+       ry="0" />
+    <rect
+       style="fill:#65e4e4;fill-opacity:0.460317;stroke:#17a2a2;stroke-width:2.358;stroke-dasharray:none;stroke-opacity:0.572549"
+       id="rect6-8"
+       width="90.375458"
+       height="61.950924"
+       x="9.7459679"
+       y="169.11862"
+       ry="0" />
+    <rect
+       style="fill:#65e4e4;fill-opacity:0.460317;stroke:#17a2a2;stroke-width:2.358;stroke-dasharray:none;stroke-opacity:0.572549"
+       id="rect6-4"
+       width="90.375458"
+       height="61.950924"
+       x="108.174"
+       y="220.52795"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:28.5756px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#65e4e4;fill-opacity:0.460317;stroke:#000000;stroke-width:1.78800002;stroke-dasharray:none;stroke-opacity:1"
+       x="66.702515"
+       y="53.1348"
+       id="text8"
+       transform="scale(0.9628113,1.0386251)"><tspan
+         sodipodi:role="line"
+         id="tspan8"
+         style="stroke:#000000;stroke-width:1.78800002;stroke-dasharray:none;stroke-opacity:1"
+         x="66.702515"
+         y="53.1348">SIFT!</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.07782px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:0.849873;stroke:#000000;stroke-width:3.31116e-09;stroke-dasharray:none;stroke-opacity:1"
+       x="12.504127"
+       y="57.151093"
+       id="text10"
+       transform="scale(0.65304345,1.5312917)"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         style="stroke-width:3.31116e-09;stroke-dasharray:none"
+         x="12.504127"
+         y="57.151093">Pirms uzticēties informācijai, veltī brīdi,</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:3.31116e-09;stroke-dasharray:none"
+         x="12.504127"
+         y="65.998367"
+         id="tspan15">lai to pārskatītu.Kā tu tai uzduries? Ko</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:3.31116e-09;stroke-dasharray:none"
+         x="12.504127"
+         y="74.845642"
+         id="tspan16">tieši šī informācija tev saka?</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:3.31116e-09;stroke-dasharray:none"
+         x="12.504127"
+         y="83.692917"
+         id="tspan12" /></text>
+    <path
+       sodipodi:type="star"
+       style="fill:#ff1600;fill-opacity:1;stroke:#cacaca;stroke-width:2.738;stroke-dasharray:none;stroke-opacity:1"
+       id="path17"
+       inkscape:flatsided="false"
+       sodipodi:sides="8"
+       sodipodi:cx="171.10075"
+       sodipodi:cy="66.481918"
+       sodipodi:r1="26.561237"
+       sodipodi:r2="24.617638"
+       sodipodi:arg1="1.1722739"
+       sodipodi:arg2="1.5614554"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 181.40803,90.961694 -10.07733,0.136788 -10.25142,-0.01841 -7.22247,-7.029022 -7.23583,-7.261863 -0.13679,-10.077325 0.0184,-10.251421 7.02902,-7.222469 7.26186,-7.235835 10.07733,-0.136787 10.25142,0.01841 7.22246,7.029021 7.23584,7.261864 0.13679,10.077325 -0.0184,10.251421 -7.02902,7.222468 z"
+       transform="translate(-2.3191368,3.0921823)" />
+    <text
+       xml:space="preserve"
+       style="font-size:13.1078px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#cbcbcb;fill-opacity:1;stroke:#cfcfcf;stroke-width:0.744975;stroke-dasharray:none;stroke-opacity:1"
+       x="133.84509"
+       y="82.535461"
+       id="text17"
+       transform="scale(1.1156553,0.8963342)"><tspan
+         sodipodi:role="line"
+         id="tspan17"
+         style="fill:#cbcbcb;fill-opacity:1;stroke-width:0.744975;stroke-dasharray:none;stroke:#cfcfcf;stroke-opacity:1"
+         x="133.84509"
+         y="82.535461">STOP</tspan></text>
+  </g>
+</svg>
